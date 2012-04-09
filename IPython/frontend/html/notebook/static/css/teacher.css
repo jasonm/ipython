@@ -1,0 +1,31 @@
+div#teacher {
+  width: 470px;
+  float: left;
+  padding: 5px;
+  margin: 8px 5px;
+}
+
+div.lesson_frame {
+  line-height: 2em;
+}
+
+div.lesson_frame a.next {
+  display: block;
+  border: 1px solid blue;
+  padding: 5px;
+  margin-left: 340px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #ddf;
+}
+
+div.lesson_frame span.code {
+  background-color: #eee;
+  padding: 5px;
+}
+
+div.lesson_frame pre {
+  display: inline;
+  background-color: #eee;
+  padding: 5px;
+}

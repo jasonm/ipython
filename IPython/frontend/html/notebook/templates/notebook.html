@@ -18,6 +18,7 @@ window.mathjax_url = "{{mathjax_url}}";
 
 <link rel="stylesheet" href="{{ static_url("css/notebook.css") }}" type="text/css" />
 <link rel="stylesheet" href="{{ static_url("css/renderedhtml.css") }}" type="text/css" />
+<link rel="stylesheet" href="{{ static_url("css/teacher.css") }}" type="text/css" />
 
 {% end %}
 
@@ -199,6 +200,7 @@ data-notebook-id={{notebook_id}}
 {% block script %}
 
 <script src="{{ static_url("codemirror/lib/codemirror.js") }}" charset="utf-8"></script>
+<script src="{{ static_url("codemirror/lib/util/runmode.js") }}" charset="utf-8"></script>
 <script src="{{ static_url("codemirror/mode/python/python.js") }}" charset="utf-8"></script>
 <script src="{{ static_url("codemirror/mode/htmlmixed/htmlmixed.js") }}" charset="utf-8"></script>
 <script src="{{ static_url("codemirror/mode/xml/xml.js") }}" charset="utf-8"></script>
@@ -231,5 +233,7 @@ data-notebook-id={{notebook_id}}
 
 <script src="{{ static_url("js/underscore.js") }}" type="text/javascript" charset="utf-8"></script>
 <script src="{{ static_url("js/underscore.string.js") }}" type="text/javascript" charset="utf-8"></script>
+<script src="{{ static_url("js/teacher.js") }}" type="text/javascript" charset="utf-8"></script>
+
 {% end %}
 
